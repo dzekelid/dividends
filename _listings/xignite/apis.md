@@ -49,7 +49,7 @@ apis:
   tags: Dividends
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dividends/master/_listings/xignite/getallextendeddividends-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/dividends/master/_listings/xignite/getalldividends-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
