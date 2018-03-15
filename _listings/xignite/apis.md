@@ -36,20 +36,20 @@ tags:
 - Business
 - Bond Markets
 - Articles
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/dividends/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Xignite Historical
+- name: Xignite Global Historical
   description: Financial market data on-demand
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: ""
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
   tags: Dividends
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dividends/master/_listings/xignite/getalldividends-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/dividends/master/_listings/xignite/getallcashdividendsbyexchange-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
