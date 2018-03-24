@@ -41,15 +41,15 @@ modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dividends/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Xignite Global Historical
+- name: Xignite Historical
   description: Financial market data on-demand
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: ""
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
   tags: Dividends
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dividends/master/_listings/xignite/getallcashdividendsbyexchange-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dividends/master/_listings/xignite/getallextendeddividends-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
