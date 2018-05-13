@@ -50,15 +50,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dividends/master/_listings/xignite/getalldividends-post.md
-- name: Xignite Historical Get All Extended Dividends
-  description: Get all extended dividend for a date range.
+- name: Xignite Historical Get All Dividends
+  description: Get all splits for a date range.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
   tags: Dividends
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dividends/master/_listings/xignite/getallextendeddividends-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dividends/master/_listings/xignite/getalldividends-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
