@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Historical
-  description: This web service provides historical security pricing for US equities.
+  title: Xignite Historical Get All Extended Dividends
+  description: Get all extended dividend for a date range.
   version: 1.0.0
 host: www.xignite.com
 basePath: xHistorical.json/XigniteHistorical
