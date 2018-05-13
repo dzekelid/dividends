@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Global Historical
-  description: On-demand global historical quotes.
+  title: Xignite Global Historical Get All Cash Dividends By Exchange
+  description: Get all cash dividends for a date range in the specified exchange.
   version: 1.0.0
 host: www.xignite.com
 basePath: xGlobalHistorical.json/XigniteGlobalHistorical
